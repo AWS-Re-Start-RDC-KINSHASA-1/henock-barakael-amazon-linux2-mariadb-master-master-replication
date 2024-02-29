@@ -48,11 +48,11 @@ This guide provides step-by-step instructions to set up MariaDB master-master re
    binlog_format = mixed
    ```
 3. Save and exit the file.
-4. Verify that the directory `/var/log/mysql/` exists:
+4. Verify that the directory `/var/log/mysql/` exist:
    ```
    sudo ls /var/log/mysql/
    ```
-   If it doesn't exist, create the missing directory:
+   If doesn't exist, create the missing directory:
    ```
    sudo mkdir /var/log/mysql/
    sudo chown -R mysql:mysql /var/log/mysql/
